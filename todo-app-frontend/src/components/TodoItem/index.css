@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+  }
+  .title {
+    font-size: 22px;
+    font-weight: 500;
+    padding-right: 25px;
+    text-align: left;
+    color: rgb(55, 94, 94);
+  }
+  .title:hover{
+    color: rgb(9, 100, 210);
+  }
+  .delete-btn {
+    height: 35px;
+    width: 80px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ff0b37;
+    color: #ff0b37;
+    font-size: 16px;
+    padding: 6px;
+    border-radius: 10px;
+  }
+  .edit-input {
+    height: 35px;
+    width: 80%;
+    border-style: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 520;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(253, 235, 213);
+    color: rgb(69, 16, 104);
+    font-weight: 510;
+  }
+  .save-edit-btn {
+    background-color: rgb(20, 232, 20);
+    color: white;
+    font-size: 16px;
+    font-weight: 520;
+    padding: 8px 15px 8px 15px;
+    border-radius: 8px;
+    outline: none;
+    border-style: none;
+    margin-right: 15px;
+    height: 35px;
+  }
+  .text-btn-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .input-label-div{
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+  }
